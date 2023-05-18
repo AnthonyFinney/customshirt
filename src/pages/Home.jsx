@@ -18,10 +18,10 @@ const Home = () => {
       {snap.intro && (
         <motion.section className="w-fit xl: h-full flex xl:justify-between justify-start items-start flex-col xl:py-8 xl:px-36 sm:p-8 p-6 max-xl:gap-7 absolute z-10" {...slideAnimation('left')}>
 
-          <motion.div className="flex-1 xl: justify-center justify-start flex flex-col gap-10" {...headContainerAnimation}>
+          <motion.div className="flex-1 xl:justify-center justify-start flex flex-col gap-10" {...headContainerAnimation}>
             <motion.div {...headTextAnimation}>
-              <h1 className="xl: text-[10rem] text-[6rem] xl:leading-[11rem] leading-[7rem] font-black text-black">
-                CUSTOM<br className="xl:block hidden" />SHIRT.
+              <h1 className="xl:text-[8rem] text-[4rem] xl:leading-[11rem] leading-[7rem] font-black text-black">
+                CUSTOM<br className="xl:block hidden" /> SHIRT.
               </h1>
             </motion.div>
             <motion.div
