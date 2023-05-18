@@ -61,13 +61,13 @@ html {
   @apply w-14 h-14 flex justify-center items-center cursor-pointer select-none;
 } */
 
-.glassmorphism {
+/* .glassmorphism {
   background: rgba(255, 255, 255, 0.25);
   box-shadow: 0 2px 30px 0 rgba(31, 38, 135, 0.07);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border: 1px solid rgba(255, 255, 255, 0.18);
-}
+} */
 
 input[type="file"] {
   z-index: -1;
@@ -75,7 +75,7 @@ input[type="file"] {
   opacity: 0;
 }
 
-.sketch-picker {
+/* .sketch-picker {
   width: 170px !important;
   background: rgba(255, 255, 255, 0.25) !important;
   box-shadow: 0 2px 30px 0 rgba(31, 38, 135, 0.07) !important;
@@ -87,4 +87,4 @@ input[type="file"] {
 
 .sketch-picker>div:nth-child(3) {
   display: none !important;
-}
+} */
