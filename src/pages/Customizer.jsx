@@ -157,6 +157,13 @@ const Customizer = () => {
               handleClick={() => downloadCanvasToImage()}
               customStyles="w-fit px-4 py-2.5 font-bold text-sm"
             />
+            <div className='py-1'></div>
+            <CustomButton
+              type="filled"
+              title="Close Tabs"
+              handleClick={() => setActiveEditorTab("")}
+              customStyles="w-fit px-4 py-2.5 font-bold text-sm"
+            />
           </motion.div>
 
           <motion.div
